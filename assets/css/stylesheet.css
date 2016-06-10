@@ -41,15 +41,19 @@ p.soft{
 
 a:link {
 	text-decoration: none;
+    color: #7DE7FF;
 }
 a:visited {
 	text-decoration: none;
+    color: #7DE7FF;
 }
 a:hover {
 	text-decoration: none;
+    color: #7DE7FF;
 }
 a:active {
 	text-decoration: none;
+    color: #7DE7FF;
 }
 
 .outer {
