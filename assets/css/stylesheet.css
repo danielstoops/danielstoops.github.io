@@ -6,7 +6,7 @@
 }
 
 body {
-	background-color: #181921;
+	background-color: #fff;
 }
 
 ::-moz-selection {
@@ -17,8 +17,26 @@ body {
 }
 
 h1 {
-	color:#CECECE;
-	font-weight: 700;
+    text-align: right;
+	font-weight: 600;
+    position: relative;
+}
+
+p {
+    display: inline;
+}
+
+p.hard{
+    font-weight: 600;
+}
+
+p.soft{
+    font-weight: 400;
+}
+
+#stuff {
+    width: 90%;
+    margin-top: 16px;
 }
 
 a:link {
@@ -39,6 +57,7 @@ a:active {
     position: absolute;
     height: 100%;
     width: 100%;
+    z-index: 50;
 }
 
 .middle {
@@ -51,11 +70,6 @@ a:active {
     margin-right: auto; 
     width: 27em;
     height: auto;
-    background-color: #23242B;
-    border-top: 1px solid rgba(60,60,60,0.75);
-    border-right: 1px solid rgba(0,0,0,0.75);
-    border-bottom: 1px solid rgba(0,0,0,0.75);
-    border-left: 1px solid rgba(55,55,55,0.75);
     position: relative;
 }
 
@@ -63,5 +77,37 @@ hr.hr1 {
     border: 0;
     height: 1px;
     background: #23242B;
-    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.8), rgba(0,0,0,0));
+    background-image: linear-gradient(to right, #fff, rgba(0,0,0,0.8), #fff);
+}
+
+div#b1 {
+    visibility: visible;
+    background-color: #7C4006;
+    background: -webkit-linear-gradient(#fff, #E2E2E2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fff, #E2E2E2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fff, #E2E2E2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fff, #E2E2E2); /* Standard syntax */
+    height: 50%;
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 150px;
+    border-color: black;
+    border-width: 5px;
+    margin-top: 2em;
+    display: inline;
+}
+
+#circle-shape-example .curve { 
+  width: 33%; height: auto;
+  min-width: 150px;
+  float: left;
+  margin-right:2rem; 
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
 }
