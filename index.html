@@ -31,7 +31,12 @@
 		<meta name="theme-color" content="#ffffff">
 		<style>
 		#title {
-			color: linear-gradient(to right, #FF5252, #2196F3);
+			color: black; /* For browsers that do not support gradients */
+  			color: -webkit-linear-gradient(left, #FF5252 , #2196F3); /* For Safari 5.1 to 6.0 */
+  			color: -o-linear-gradient(right, #FF5252, #2196F3); /* For Opera 11.1 to 12.0 */
+  			color: -moz-linear-gradient(right, #FF5252, #2196F3); /* For Firefox 3.6 to 15 */
+  			color: linear-gradient(to right, #FF5252 , #2196F3); /* Standard syntax */
+			}
 		</style>
 	</head>
 	<body>
