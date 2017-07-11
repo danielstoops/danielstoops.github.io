@@ -3,6 +3,7 @@
   padding: 0px;
   color: #111;
   font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
 }
 
 body {
