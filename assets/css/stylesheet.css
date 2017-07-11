@@ -2,12 +2,12 @@
   margin: 0px;
   padding: 0px;
   color: #111;
-  font-variant-ligatures: none;
-  -webkit-font-variant-ligatures: none;
 }
 
 body {
   font-family: "Raleway";
+  font-variant-ligatures: none !important;
+  -webkit-font-variant-ligatures: none !important;
 }
 a {
   color: #222;
